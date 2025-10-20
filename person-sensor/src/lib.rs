@@ -59,6 +59,8 @@ mod person_sensor_builder;
 pub use person_sensor::IDMode;
 pub use person_sensor::PersonSensor;
 pub use person_sensor::ReadError;
+pub use person_sensor::StandbyMode;
+pub use person_sensor::ContinuousCaptureMode;
 pub use person_sensor_builder::PersonSensorBuilder;
 
 /// The number of detections returned by the sensor.
